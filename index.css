@@ -1,0 +1,46 @@
+h1 {
+	color: blue;
+}
+
+/* h2 {
+	color: white;
+	background-color: blue;
+} */
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+span {
+	font-size: 200%;
+}
+#special {
+	background-color: yellow;
+}
+.alert {
+	border: grey solid 1px;
+}
+.alert.stop {
+	background-color: red;
+}
+.alert.go {
+	background-color: green;
+}
+a {
+	color: orange;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	text-decoration: none;
+}
+.container p:first-child {
+	font-size: 150%;
+}
+.container p:first-child::first-line {
+	color: red;
+}
+tbody tr:nth-child(2n + 2) {
+	color: white;
+	background-color: #333;
+}
