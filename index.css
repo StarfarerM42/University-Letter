@@ -10,6 +10,9 @@
 	width: 1000px;
 	margin: 0 auto;
 }
+li {
+	margin-bottom: 20px;
+}
 /* span {
 	font-size: 200%;
 }
@@ -44,10 +47,23 @@ tbody tr:nth-child(2n + 2) {
 	color: white;
 	background-color: #333;
 } */
-h2 + p {
+/* h2 + p {
 	color: red;
 }
 .list > li {
 	list-style-type: none;
 	border-bottom: 1px solid grey;
+} */
+a {
+	border: 5px solid grey;
+}
+a[title] {
+	border-color: pink;
+}
+
+a[href*='contact'] {
+	border-color: orange;
+}
+a[href^='https'] {
+	border-color: green;
 }
