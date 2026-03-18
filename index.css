@@ -1,6 +1,6 @@
-h1 {
+/* h1 {
 	color: blue;
-}
+} */
 
 /* h2 {
 	color: white;
@@ -10,7 +10,7 @@ h1 {
 	width: 1000px;
 	margin: 0 auto;
 }
-span {
+/* span {
 	font-size: 200%;
 }
 #special {
@@ -43,4 +43,11 @@ a:hover {
 tbody tr:nth-child(2n + 2) {
 	color: white;
 	background-color: #333;
+} */
+h2 + p {
+	color: red;
+}
+.list > li {
+	list-style-type: none;
+	border-bottom: 1px solid grey;
 }
