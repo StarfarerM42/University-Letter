@@ -9,6 +9,7 @@
 .container {
 	width: 1000px;
 	margin: 0 auto;
+	padding-top: 200px;
 }
 /* li {
 	margin-bottom: 20px;
@@ -70,4 +71,5 @@ a[href^='https'] {
 .one {
 	margin: 100px 100px 100px 100px;
 	padding: 100px 100px 100px 100px;
+	border: 2px solid red;
 }
