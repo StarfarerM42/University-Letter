@@ -10,9 +10,9 @@
 	width: 1000px;
 	margin: 0 auto;
 }
-li {
+/* li {
 	margin-bottom: 20px;
-}
+} */
 /* span {
 	font-size: 200%;
 }
@@ -54,7 +54,7 @@ tbody tr:nth-child(2n + 2) {
 	list-style-type: none;
 	border-bottom: 1px solid grey;
 } */
-a {
+/* a {
 	border: 5px solid grey;
 }
 a[title] {
@@ -66,4 +66,8 @@ a[href*='contact'] {
 }
 a[href^='https'] {
 	border-color: green;
+} */
+.one {
+	margin: 100px 100px 100px 100px;
+	padding: 100px 100px 100px 100px;
 }
