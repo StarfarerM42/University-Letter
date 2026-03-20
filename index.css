@@ -9,7 +9,6 @@
 .container {
 	width: 1000px;
 	margin: 0 auto;
-	padding-top: 200px;
 }
 /* li {
 	margin-bottom: 20px;
@@ -68,8 +67,28 @@ a[href*='contact'] {
 a[href^='https'] {
 	border-color: green;
 } */
-.one {
+/* .one {
 	margin: 100px 100px 100px 100px;
 	padding: 100px 100px 100px 100px;
 	border: 2px solid red;
+} */
+p,
+ul {
+	border: 2px solid rebeccapurple;
+	padding: 0.5em;
+}
+
+.block,
+li {
+	border: 2px solid blue;
+	padding: 0.5em;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+}
+
+.block {
+	display: block;
 }
