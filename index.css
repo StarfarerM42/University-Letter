@@ -101,3 +101,11 @@ ul {
 .block {
 	display: block;
 } */
+
+.box {
+}
+
+h2 {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
