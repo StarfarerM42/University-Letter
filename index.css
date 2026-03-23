@@ -1,131 +1,59 @@
-html {
+/* Type and text */
+
+* {
 	box-sizing: border-box;
 }
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
+
+html {
+	height: 100%;
 }
 
-/* h1 {
-	color: blue;
-} */
-
-/* h2 {
-	color: white;
-	background-color: blue;
-} */
-.container {
-	width: 1000px;
+body {
+	height: inherit;
+	font: 1.2em / 1.5 system-ui;
 	margin: 0 auto;
 }
-/* li {
-	margin-bottom: 20px;
-} */
-/* span {
-	font-size: 200%;
-}
-#special {
-	background-color: yellow;
-}
-.alert {
-	border: grey solid 1px;
-}
-.alert.stop {
-	background-color: red;
-}
-.alert.go {
-	background-color: green;
-}
-a {
-	color: orange;
-}
-a:visited {
-	color: green;
-}
-a:hover {
-	text-decoration: none;
-}
-.container p:first-child {
-	font-size: 150%;
-}
-.container p:first-child::first-line {
-	color: red;
-}
-tbody tr:nth-child(2n + 2) {
-	color: white;
-	background-color: #333;
-} */
-/* h2 + p {
-	color: red;
-}
-.list > li {
-	list-style-type: none;
-	border-bottom: 1px solid grey;
-} */
-/* a {
-	border: 5px solid grey;
-}
-a[title] {
-	border-color: pink;
-}
 
-a[href*='contact'] {
-	border-color: orange;
-}
-a[href^='https'] {
-	border-color: green;
-} */
-/* .one {
-	margin: 100px 100px 100px 100px;
-	padding: 100px 100px 100px 100px;
-	border: 2px solid red;
-} */
-/* p,
-ul {
-	border: 2px solid rebeccapurple;
-	padding: 0.5em;
-}
-
-.block,
-li {
-	border: 2px solid blue;
-	padding: 0.5em;
-}
-
-ul {
-	display: flex;
-	list-style: none;
-}
-
-.block {
-	display: block;
-} */
-
-/* .box {
+h1 {
+	font-size: 2em;
 }
 
 h2 {
-	color: white;
-	background-color: rgba(0, 0, 0, 0.5);
-} */
-body {
-	font: 1.2em / 1.5 sans-serif;
+	font-size: 1.5em;
 }
 
-.box {
-	border: 5px solid black;
-	padding: 1em;
-	height: 200px;
-	width: 300px;
-	overflow-y: auto;
+a {
+	color: red;
 }
-body {
-	font: 1.2em / 1.5 sans-serif;
+
+a:hover,
+a:focus {
+	text-decoration: none;
 }
-.box1 {
-	border: 5px solid black;
-	height: 200px;
-	width: 300px;
-	overflow: hidden;
+
+/* Styling the pane */
+
+.pane {
+	height: 100%;
+}
+
+h1,
+.controls {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+}
+
+.controls {
+	justify-content: space-around;
+	gap: 20px;
+	padding: 20px;
+}
+
+button {
+	flex: 1;
 }
