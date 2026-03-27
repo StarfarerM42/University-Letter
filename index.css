@@ -12,3 +12,6 @@ textarea {
 textarea {
 	overflow: auto;
 } */
+.box {
+	border: 5px solid darkblue;
+}
