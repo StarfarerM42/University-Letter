@@ -1,4 +1,29 @@
+html {
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 5rem;
+	text-transform: capitalize;
+}
+
+h1 + p {
+	font-weight: bold;
+}
+
 p {
+	font-size: 1.5rem;
 	color: red;
-	font-family: 'Arial';
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	text-shadow: 4px 4px 5px red;
+	line-height: 1.5;
+}
+h1 {
+	text-shadow:
+		1px 1px 1px red,
+		2px 2px 1px red;
+}
+p::first-line {
+	letter-spacing: 4px;
+	word-spacing: 4px;
 }
