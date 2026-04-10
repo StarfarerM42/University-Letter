@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'myFont';
+	src: url('myFont.woff');
+}
+
+html {
+	font-family: 'myFont', 'Bitstream Vera Serif', sans-serif;
+}
