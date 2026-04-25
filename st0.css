@@ -1,45 +1,68 @@
 /* General setup */
 
+@font-face {
+	font-family: 'abril_fatfaceregular';
+	src:
+		url('font/abrilfatface-regular.woff2') format('woff2'),
+		url('font/abrilfatface-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'courier_primeregular';
+	src:
+		url('font/courier_prime.woff2') format('woff2'),
+		url('font/courier_prime.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  margin: 0 auto;
-  min-width: 1000px;
-  max-width: 1400px;
+	margin: 0 auto;
+	min-width: 1000px;
+	max-width: 1400px;
 }
 
 /* Layout */
 
 section {
-  float: left;
-  width: 50%;
+	float: left;
+	width: 50%;
 }
 
 aside {
-  float: left;
-  width: 30%;
+	float: left;
+	width: 30%;
 }
 
 nav {
-  float: left;
-  width: 20%;
+	float: left;
+	width: 20%;
 }
 
 footer {
-  clear: both;
+	clear: both;
 }
 
-header, section, aside, nav, footer {
-  padding: 20px;
+header,
+section,
+aside,
+nav,
+footer {
+	padding: 20px;
 }
 
 /* header and footer */
 
-header, footer {
-  border-top: 5px solid #a66;
-  border-bottom: 5px solid #a66;
+header,
+footer {
+	border-top: 5px solid #a66;
+	border-bottom: 5px solid #a66;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
