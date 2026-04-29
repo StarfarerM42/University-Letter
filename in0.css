@@ -105,3 +105,40 @@ h3 {
 section h2 + p {
 	text-indent: 20px;
 }
+
+a:link {
+	color: #aa6666; /* базовий */
+}
+
+a:visited {
+	color: #8f5555; /* трохи темніший і більш приглушений */
+}
+
+a:hover {
+	color: #cc7777; /* світліший, щоб був ефект наведення */
+	text-decoration: none;
+}
+
+a:focus {
+	outline: none;
+	color: #aa6666;
+	text-decoration: none;
+}
+
+a:active {
+	outline: 2px solid red;
+	color: red;
+}
+
+a[href*='http']::after {
+	content: '';
+	display: inline-block;
+
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+
+	background-image: url('img/icons8-external-link-26.png');
+	background-size: 10px 10px;
+	background-repeat: no-repeat;
+}
