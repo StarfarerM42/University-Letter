@@ -142,3 +142,12 @@ a[href*='http']::after {
 	background-size: 10px 10px;
 	background-repeat: no-repeat;
 }
+
+ul,
+ol {
+	line-height: 1.5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	list-style-position: inside;
+	padding-left: 10px;
+}
