@@ -151,3 +151,7 @@ ol {
 	list-style-position: inside;
 	padding-left: 10px;
 }
+
+nav ul {
+	list-style: none;
+}
